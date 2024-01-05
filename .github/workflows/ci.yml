@@ -1,6 +1,6 @@
 name: Python CI for NGSpeciesID
 
-on: [push]
+on: [push, workflow_dispatch]
 
 permissions:
    actions: read   # permission to read other github actions
