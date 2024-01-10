@@ -9,5 +9,5 @@ permissions: write-all
 
 jobs:
    python-validation:
-      uses: dmccheyne-hpe/reusable-workflows/.github/workflows/ci-python-spark.yml@python-ci
+      uses: hpe-cds/reusable-workflows/.github/workflows/ci-python-spark.yml@python-ci
       secrets: inherit
